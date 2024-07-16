@@ -18,7 +18,7 @@ public class Program {
 		
 		// Downcasting
 		
-		BusinessAccount acc4 = (BusinessAccount)acc2; // Mesmo tendo criado acc2 como BsinessAccount dá erro, temos de fazer um Downcast.
+		BusinessAccount acc4 = (BusinessAccount)acc2; // Mesmo tendo criado acc2 como BusinessAccount dá erro, temos de fazer um Downcast.
 		acc4.loan(100.0);
 		
 		// BusinessAccount acc5 = (BusinessAccount)acc3; 
