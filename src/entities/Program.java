@@ -45,7 +45,7 @@ public class Program {
 			System.out.println("Update");
 		}
 */
-		Account acc1 = new Account(1001, "João", 1000.00);
+/*		Account acc1 = new Account(1001, "João", 1000.00);
 		acc1.withDraw(200.00);
 		System.out.println(acc1.getBalance());
 		Account acc2 = new SavingsAccount(1002, "Maria", 1000.00, 0.01);
@@ -54,5 +54,6 @@ public class Program {
 		Account acc3 = new BusinessAccount(1003, "Andre", 1000.00, 700.00);
 		acc3.withDraw(200.00);
 		System.out.println(acc3.getBalance());
+*/
 	}
 }

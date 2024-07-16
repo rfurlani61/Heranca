@@ -1,6 +1,9 @@
 package entities;
 
-public class Account {
+public abstract class Account {
+	
+	// Ao colocarmos a palavra reservada abstract, impidimos a classe de seer instanciada
+	// Mas ainda podemos usar as suas capacidades de reuso e polimorfismo
 	private Integer number;
 	private String holder;
 	protected Double balance;
